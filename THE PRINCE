@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Star Multiplex</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Welcome to Star Multiplex</h1>
+      <p>Experience movies like never before!</p>
+      <a href="#now-showing" class="btn">Book Now</a>
+    </div>
+  </header>
+
+  <section id="now-showing" class="movies">
+    <div class="container">
+      <h2>Now Showing</h2>
+      <div class="movie-grid">
+        <div class="movie">
+          <img src="movie1.jpg" alt="Movie 1" />
+          <h3>Avengers: Endgame</h3>
+          <p>Action | 2h 45min</p>
+        </div>
+        <div class="movie">
+          <img src="movie2.jpg" alt="Movie 2" />
+          <h3>Jawan</h3>
+          <p>Thriller | 2h 30min</p>
+        </div>
+        <div class="movie">
+          <img src="movie3.jpg" alt="Movie 3" />
+          <h3>Animal</h3>
+          <p>Drama | 2h 50min</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="showtimes">
+    <div class="container">
+      <h2>Show Timings</h2>
+      <ul>
+        <li>🎬 Avengers - 10:00 AM, 1:00 PM, 7:00 PM</li>
+        <li>🎬 Jawan - 11:30 AM, 4:00 PM, 9:00 PM</li>
+        <li>🎬 Animal - 12:00 PM, 5:00 PM, 10:00 PM</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Star Multiplex brings you the best movie experience with Dolby surround sound, 4K screens and luxury seating. Located in the heart of your city!</p>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Star Multiplex. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
